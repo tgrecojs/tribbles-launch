@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+@import 'tailwindcss/base';
+@import './shared/styles/custom-components.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.dropdown-shadow {
+    box-shadow: 0 4px 6px hsla(0, 0%, .1);
+}
+
+@font-face {
+    font-family: "ksg";
+    src: url("../assets/fonts/KitchenSinkGold.ttf");
+}
+
+.gradient-two {}
+
+body {
+    background: hsla(160, 50%, 51%, 1);
+
+    background: linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#43c197", endColorstr="#1c1554", GradientType=1);
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+
+svg {
+    min-width: 25px;
+    min-height: 20px;
+    ;
+}
+
+h4>a {
+    margin-left: 6px;
+    padding: 15px;
+}
