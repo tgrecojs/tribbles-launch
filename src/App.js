@@ -66,7 +66,7 @@ const App = ({
     <div className="flex flex-col w-full items-center p-20">
       <hr width="90%" />
     </div>
-    <div>
+    {/* <div>
       <h3 className="section-header text-4xl md:text-6xl">
         They're coming in droves
       </h3>
@@ -178,7 +178,7 @@ const App = ({
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </Layout>
 );
 export default App;
