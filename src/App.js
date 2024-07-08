@@ -1,5 +1,4 @@
 import OmniflixCampaignComponent from "./features/omniflixCampaign/component";
-import BentoBox2 from "./features/productInfo/component";
 import Layout from "./shared/layout/component";
 import tribbleImg from "../assets/images/tribble.png";
 import tokenomicsImg from "../assets/images/tribble-with-circle-border.png";
@@ -15,7 +14,7 @@ const App = ({
       <h1 className="text-7xl md:text-9xl text-local_green font-ksg p-4">
         They're coming
       </h1>
-      <p className="font-kanit text-xl md:text-3xl font-extralight p-4 text-white text-center w-2/5">
+      <p className="font-kanit text-xl md:text-3xl font-extralight p-4 text-white text-center w-4/5">
         {description}
       </p>
     </div>
@@ -170,11 +169,11 @@ const App = ({
           <hr width="90%" />
         </div>
         <div className="w-full flex justify-around">
-          <div className="flex flex-col w-1/3">
-            <h3 className="text-3xl font-kanit text-white mb-3">Tokenomics</h3>
+          <div className="flex flex-col w-full m:w-1/3 m:items-center">
+            <h3 className="text-7xl font-kanit text-white p-4">Tokenomics</h3>
             <TokenomicsComponent />
           </div>
-          <div>
+          <div className="invisible md:visible md:self-center">
             <img src={tokenomicsImg} />
           </div>
         </div>
@@ -182,5 +181,4 @@ const App = ({
     </div>
   </Layout>
 );
-BentoBox2;
 export default App;

@@ -16,7 +16,7 @@ const allocationData = [
 const TextPanel = ({ text = "Default Value", key = 0, imgSrc = "1.png" }) => (
   <div
     key={`panel-${key}`}
-    className="bg-slate-800 p-8 border text-white font-thin font-kanit text-3xl mb-2 flex justify-start"
+    className="bg-slate-800 p-8 m-3 border text-white font-thin font-kanit text-3xl mb-2 flex justify-start w-3/4"
   >
     <img src={imgSrc} className="mr-3" />
     <p>{text}</p>

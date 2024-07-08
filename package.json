@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "test": "ava",
-    "dev": "parcel ./src/index.html --port 2020",
-    "dev:nocache": "npm run dev --no-cache"
+    "start": "parcel src/index.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "Thomas Greco <tgrecojs@pme.me>",
   "license": "Apache-2.0",
@@ -15,7 +16,6 @@
     "parcel": "^2.10.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-lottie": "^1.2.4",
     "ses": "^1.5.0"
   },
   "ava": {
