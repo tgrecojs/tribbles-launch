@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 const text = [
-  ` In the neon haze of the 1970s, a band of renegade Tribbles decided ton
+  ` In the neon haze of the 1970s, a band of renegade Tribbles decided to
         join together to observe the behavior of humans. These Tribbles, with
         their shimmering fur of rebellious hues, escaped into the obscure
         corners of the galaxy. Here, they embarked on a long sabbatical,
