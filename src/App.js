@@ -29,7 +29,7 @@ const App = ({
       <div className="p-8">
         <p className="w-full p-4 text-white text-2xl">
           {" "}
-          In the neon haze of the 1970s, a band of renegade Tribbles decided ton
+          In the neon haze of the 1970s, a band of renegade Tribbles decided to
           join together to observe the behavior of humans . These Tribbles, with
           their shimmering fur of rebellious hues , escaped into the obscure
           corners of the galaxy. Here, they embarked on a long sabbatical,
@@ -61,9 +61,9 @@ const App = ({
 
         <p className="w-full p-4 text-white text-2xl">
           {" "}
-          `` Don’t blink, lest you might miss them duplicated at a dizzying
-          pace, replicating themselves into generational fortitude. With each
-          new block forged in the cosmic ledger, a new generation of Tribbles
+          Don’t blink, lest you might miss them duplicated at a dizzying pace,
+          replicating themselves into generational fortitude. With each new
+          block forged in the cosmic ledger, a new generation of Tribbles
           emerges, ready to populate the digital universe with their unique
           brand of joy and unity. Their proliferation is not just a function of
           their design but a testament to their enduring charm and the
