@@ -30,8 +30,8 @@ const App = ({
         <p className="w-full p-4 text-white text-2xl">
           {" "}
           In the neon haze of the 1970s, a band of renegade Tribbles decided to
-          join together to observe the behavior of humans . These Tribbles, with
-          their shimmering fur of rebellious hues , escaped into the obscure
+          join together to observe the behavior of humans. These Tribbles, with
+          their shimmering fur of rebellious hues, escaped into the obscure
           corners of the galaxy. Here, they embarked on a long sabbatical,
           eschewing fame for a quieter existence, where they could cultivate a
           deep philosophical ethos centered around intersubjectivity and mutual
@@ -52,8 +52,8 @@ const App = ({
       <div className="p-8">
         <p className="w-full p-4 text-white text-2xl">
           Spurred by cosmic currents and the alignment of digital stars, they’ve
-          decided to re-enter the galactic stage. Launching their very own
-          cryptocurrency. they aim to spread their ethos of intersubjectivity
+          decided to re-enter the galactic stage, launching their very own
+          cryptocurrency. They aim to spread their ethos of intersubjectivity
           through the cosmos. Each token, a symbol of their collective
           philosophy, represents not just a piece of digital currency but a part
           of a larger, interconnected whole.
@@ -61,7 +61,7 @@ const App = ({
 
         <p className="w-full p-4 text-white text-2xl">
           {" "}
-          Don’t blink, lest you might miss them duplicated at a dizzying pace,
+          Don’t blink, lest you might miss them duplicating at a dizzying pace,
           replicating themselves into generational fortitude. With each new
           block forged in the cosmic ledger, a new generation of Tribbles
           emerges, ready to populate the digital universe with their unique
