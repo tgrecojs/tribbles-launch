@@ -27,7 +27,7 @@ const Navbar = () => (
         </a> */}
         <a
           href="https://twitter.com/__tribbles"
-          aria-description="twitter logo"
+          aria-description="official X page for tribbles project"
           alt="@__tribbles twitter page"
         >
           <svg
