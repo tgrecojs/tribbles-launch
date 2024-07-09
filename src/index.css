@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap');
 
 @import 'tailwindcss/base';
 @import './shared/styles/custom-components.css';
@@ -19,15 +19,15 @@
 .gradient-two {}
 
 body {
-    background: hsla(160, 50%, 51%, 1);
+    background-image: url('../assets/images/background.png');
 
-    background: linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
+    /* background: linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
 
     background: -moz-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
 
     background: -webkit-linear-gradient(90deg, hsla(160, 50%, 51%, 1) 0%, hsla(247, 60%, 21%, 1) 100%);
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#43c197", endColorstr="#1c1554", GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#43c197", endColorstr="#1c1554", GradientType=1); */
 }
 
 .wrapper {

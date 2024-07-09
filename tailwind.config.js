@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         baumans: ['"Baumans", system-ui'],
-        kanit: [' "Kanit", sans-serif'],
+        kanit: ['"Gemunu Libre", sans-serif'],
         ksg: ['"ksg", sans-serif'],
       },
 
