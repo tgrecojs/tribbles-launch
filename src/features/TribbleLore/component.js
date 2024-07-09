@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 const text = [
   ` In the neon haze of the 1970s, a band of renegade Tribbles decided ton
-        join together to observe the behavior of humans . These Tribbles, with
-        their shimmering fur of rebellious hues , escaped into the obscure
+        join together to observe the behavior of humans. These Tribbles, with
+        their shimmering fur of rebellious hues, escaped into the obscure
         corners of the galaxy. Here, they embarked on a long sabbatical,
         eschewing fame for a quieter existence, where they could cultivate a
         deep philosophical ethos centered around intersubjectivity and mutual
@@ -16,9 +16,9 @@ const text = [
         interwoven as their furs. Now, as the universe stands on the brink of a
         new blockchain-powered epoch, the time of the Tribbles has come.`,
 
-  `Spurred by cosmic currents and the alignment of digital stars, they’ve
-        decided to re-enter the galactic stage. Launching their very own
-        cryptocurrency. they aim to spread their ethos of intersubjectivity
+  `Spurred by cosmic currents and the alignment of digital stars, they’ve decided to 
+    re-enter the galactic stage, launching their very own cryptocurrency. 
+    They aim to spread their ethos of intersubjectivity
         through the cosmos. Each token, a symbol of their collective philosophy,
         represents not just a piece of digital currency but a part of a larger,`,
 ];
