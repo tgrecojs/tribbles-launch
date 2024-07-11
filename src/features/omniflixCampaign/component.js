@@ -6,7 +6,7 @@ const OmniflixCampaignComponent = () => {
   return (
     <div className="flex flex-col w-full items-center">
       <h5 className="text-2xl font-kanit text-white mb-2">
-        Level 1 Qualifier Open Now
+      Get Your Community Access NFT Now
       </h5>
       <button
         onClick={handleClick}
@@ -14,7 +14,6 @@ const OmniflixCampaignComponent = () => {
       >
         GO
       </button>
-      <p className="mt-2 text-white">EARN POAP NFT</p>
     </div>
   );
 };
