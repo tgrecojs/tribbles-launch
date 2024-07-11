@@ -18,7 +18,7 @@ const Navbar = () => (
           </svg>
         </a> */}
         <a
-          href="https://discord.com/channels/585576150827532298/1260602048039096430"
+          href="https://discord.gg/agoric-585576150827532298"
           aria-description="Join the official Discord channel for the Tribbles project."
           alt="Discord Channel for the Tribbles community"
         >
