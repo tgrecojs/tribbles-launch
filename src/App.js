@@ -1,16 +1,12 @@
 import OmniflixCampaignComponent from "./features/omniflixCampaign/component";
 import Layout from "./shared/layout/component";
-import tribbleImg from "../assets/images/tribble.png";
-import tokenomicsImg from "../assets/images/tribble-with-circle-border.png";
 
-import TokenomicsComponent from "./features/tokenomics/component";
 const App = ({
   title = "Merkle Tree Airdrop Campaign Client",
   description = "Tribbles are the intergalactic intersubjective meme coin for one and all",
 }) => (
   <Layout>
     <div className="flex flex-col w-full items-center md:items-start p-4">
-      {/* h1 text is 7xl on small screens and 9xl on screends medium and larger */}
       <h1 className="text-7xl md:text-9xl text-local_green font-ksg p-4">
         They're coming
       </h1>
@@ -19,7 +15,6 @@ const App = ({
       </p>
     </div>
     <OmniflixCampaignComponent />
-    {/* <WithTypingTextComponent /> */}
     <div className="flex flex-col w-full items-center p-20">
       <hr width="90%" />
     </div>
@@ -74,119 +69,6 @@ const App = ({
     <div className="flex flex-col w-full items-center p-20">
       <hr width="90%" />
     </div>
-    {/* <div>
-      <h3 className="section-header text-4xl md:text-6xl">
-        They're coming in droves
-      </h3>
-      <div className="flex flex-wrap justify-around">
-        <div className="p-4 w-3/4 md:w-1/3">
-          <a
-            href="#"
-            className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-          >
-            <img
-              alt=""
-              src={tribbleImg}
-              className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-            />
-
-            <div className="mt-2">
-              <h3 className="text-3xl font-light">How to earn</h3>
-
-              <div className="mt-6 flex flex-col items-center gap-8 font-kanit text-xl">
-                <div>
-                  <p>
-                    Tribbles tipping is supported in over 34,000 Discord
-                    servers! Head over to tip.cc to add Pepecoin tipping to your
-                    server.
-                  </p>
-                </div>
-                <div className="mt-1.5 sm:mt-0">
-                  <button className="text-2xl bg-local_pink p-4 border rounded">
-                    Read
-                  </button>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="p-4 w-3/4 md:w-1/3">
-          <a
-            href="#"
-            className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-          >
-            <img
-              alt=""
-              src={tribbleImg}
-              className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-            />
-
-            <div className="mt-2">
-              <h3 className="text-3xl font-light">How to earn</h3>
-
-              <div className="mt-6 flex flex-col items-center gap-8 font-kanit text-xl">
-                <div>
-                  <p>
-                    Tribbles tipping is supported in over 34,000 Discord
-                    servers! Head over to tip.cc to add Pepecoin tipping to your
-                    server.
-                  </p>
-                </div>
-                <div className="mt-1.5 sm:mt-0">
-                  <button className="text-2xl bg-local_pink p-4 border rounded">
-                    Read
-                  </button>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div className="p-4 w-3/4 md:w-1/3 align-center">
-          <a
-            href="#"
-            className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-          >
-            <img
-              alt=""
-              src={tribbleImg}
-              className="block rounded-lg p-4 bg-slate-800 text-white shadow-sm shadow-indigo-100"
-            />
-
-            <div className="mt-2">
-              <h3 className="text-3xl font-light">How to earn</h3>
-
-              <div className="mt-6 flex flex-col items-center gap-8 font-kanit text-xl">
-                <div>
-                  <p>
-                    Tribbles tipping is supported in over 34,000 Discord
-                    servers! Head over to tip.cc to add Pepecoin tipping to your
-                    server.
-                  </p>
-                </div>
-                <div className="mt-1.5 sm:mt-0">
-                  <button className="text-2xl bg-local_pink p-4 border rounded">
-                    Read
-                  </button>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div className="flex flex-col w-full items-center p-20">
-          <hr width="90%" />
-        </div>
-        <div className="w-full flex justify-around">
-          <div className="flex flex-col w-full m:w-1/3 m:items-center">
-            <h3 className="text-7xl font-kanit text-white p-4">Tokenomics</h3>
-            <TokenomicsComponent />
-          </div>
-          <div className="invisible md:visible md:self-center">
-            <img src={tokenomicsImg} />
-          </div>
-        </div>
-      </div>
-    </div> */}
   </Layout>
 );
 export default App;
