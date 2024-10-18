@@ -1,4 +1,4 @@
-import OmniflixCampaignComponent from "./features/omniflixCampaign/component";
+import TribblesCommunityComponent from "./features/tribblesCommunity/component";
 import Layout from "./shared/layout/component";
 
 const App = ({
@@ -14,7 +14,7 @@ const App = ({
         {description}
       </p>
     </div>
-    <OmniflixCampaignComponent />
+    <TribblesCommunityComponent />
     <div className="flex flex-col w-full items-center p-20">
       <hr width="90%" />
     </div>
