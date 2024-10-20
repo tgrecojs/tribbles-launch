@@ -1,5 +1,6 @@
 import TribblesCommunityComponent from "./features/tribblesCommunity/component";
 import Layout from "./shared/layout/component";
+import TribbleIcon from "../assets/images/tribble.png";
 
 const App = ({
   title = "Merkle Tree Airdrop Campaign Client",
@@ -16,7 +17,33 @@ const App = ({
     </div>
     <TribblesCommunityComponent />
     <div className="flex flex-col w-full items-center p-20">
-      <hr width="90%" />
+      {/* <hr width="90%" /> */}
+      <ul className="text-lg md:text-2xl">
+        <li className="flex items-center">
+          <img className="max-w-20" src={TribbleIcon} />
+          <p className="text-white font-kanit">
+            Built on the Agoric blockchain
+          </p>
+        </li>
+        <li className="flex items-center">
+          <img className="max-w-20" src={TribbleIcon} />
+          <p className="text-white font-kanit">Hungry for orchestration</p>
+        </li>
+        <li className="flex items-center">
+          <img className="max-w-20" src={TribbleIcon} />
+          <p className="text-white font-kanit">Community-driven</p>
+        </li>
+        <li className="flex items-center">
+          <img className="max-w-20" src={TribbleIcon} />
+          <p className="text-white font-kanit">
+            Max supply capped at amount minted
+          </p>
+        </li>
+        <li className="flex items-center">
+          <img className="max-w-20" src={TribbleIcon} />
+          <p className="text-white font-kanit">Built for cross-chain utility</p>
+        </li>
+      </ul>
     </div>
     <h2 className="text-6xl text-white font-kanit p-12">Tribble Lore </h2>
 

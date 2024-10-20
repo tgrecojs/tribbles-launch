@@ -1,8 +1,8 @@
 const TribblesCommunityComponent = () => {
   return (
-    <div className="flex flex-col w-full items-center">
-      <h5 className="text-2xl font-kanit text-white mb-2">
-        Become a member of the Tribble community now!
+    <div className="flex flex-col justify-around w-full items-center p-4">
+      <h5 className="text-2xl font-kanit text-white mb-2 text-center">
+        Become a member of the Tribble community!
       </h5>
       <a
         href="https://discord.gg/agoric-585576150827532298"
